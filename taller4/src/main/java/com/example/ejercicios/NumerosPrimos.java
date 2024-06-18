@@ -29,8 +29,6 @@ public class NumerosPrimos {
         }
     }
 
-    
-
     /*
     public static void numeroPrimo(int num) {
         boolean primo = true;
@@ -47,4 +45,5 @@ public class NumerosPrimos {
         }
     }
      */
+    
 }
