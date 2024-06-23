@@ -21,9 +21,15 @@ class NumerosPrimosTest {
     }
 
     @Test
-    public void testNumeroPrimo() {
+    public void testNumeroPrimoTrue() {
         assertTrue(numerosPrimos.numeroPrimo(3));
         assertTrue(numerosPrimos.numeroPrimo(5));
+        assertTrue(numerosPrimos.numeroPrimo(7));
+        
+    }
+
+    @Test
+    public void testNumeroPrimoFalse(){
         assertFalse(numerosPrimos.numeroPrimo(4));
         assertFalse(numerosPrimos.numeroPrimo(1));
         assertFalse(numerosPrimos.numeroPrimo(0));
